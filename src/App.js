@@ -66,6 +66,32 @@ const steps = [
       </p>
     ),
   },
+  {
+    label: "Kjo poezi shkon vec per ty",
+    description: (
+      <p>
+        Gëzuar ditëlindjen, qenie e çuditshme, <br />
+        Ti, me sytë si yje dhe buzëqeshje të pjerrët! <br />
+        Me ty, çdo ditë është një aventurë, <br />
+        Një karusel që nuk ndalet, një festë pa kufi. <br />
+        Ti, me flokët e tua të çrregullt, <br />
+        Dhe idetë e tua të çmendura, <br />
+        Më bën të qesh me lot, më bën të ëndërroj me sy hapur. <br />
+        Je si një këngë pa melodi, <br />
+        Një pikturë pa ngjyra, <br />
+        Një libër pa fjalë, <br />
+        Por që megjithatë, më mbush shpirtin plot. <br />
+        Ti, me zemrën tënde të madhe, <br />
+        Dhe shpirtin tënd të lirë, <br />
+        Më bën të ndihem e gjallë, më bën të ndihem unë. <br />
+        Gëzuar ditëlindjen, dashuria ime e çmendur, <br />
+        Ti, që je gjithçka që kam ëndërruar, <br />
+        Dhe më shumë se ç'mund të shpjegoj me fjalë. <br />
+        Të dua deri në hënë e mbrapa, <br />
+        Dhe pastaj edhe një herë nga e para!
+      </p>
+    ),
+  },
 ];
 function App() {
   const [open, setOpen] = React.useState(false);
