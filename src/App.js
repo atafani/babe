@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Container, Button, Box, Modal, Typography } from "@mui/material";
-import { FaHeart } from "react-icons/fa";
+import { FaHeart, FaGlobeAmericas } from "react-icons/fa";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { useTheme } from "@mui/material/styles";
 import MobileStepper from "@mui/material/MobileStepper";
@@ -129,17 +129,20 @@ function App() {
           gap: "1rem",
         }}
       >
-        <FaHeart size={50} color="#d90429" />
+        <FaHeart size={80} color="#d90429" />
+        <FaHeart size={60} color="#d90429" />
         <FaHeart size={40} color="#d90429" />
-        <FaHeart size={30} color="#d90429" />
         <FaHeart size={20} color="#d90429" />
-        <FaHeart size={30} color="#d90429" />
         <FaHeart size={40} color="#d90429" />
-        <FaHeart size={50} color="#d90429" />
+        <FaHeart size={60} color="#d90429" />
+        <FaHeart size={80} color="#d90429" />
       </Box>
 
       <Button variant="contained" color="error" onClick={handleOpen}>
-        Hyr ne zemren time
+        <Typography sx={{ marginRight: "0.5rem" }}>
+          Gezuar Ditelindjen Bota Ime
+        </Typography>
+        <FaGlobeAmericas size={40} />
       </Button>
       <Modal
         open={open}
